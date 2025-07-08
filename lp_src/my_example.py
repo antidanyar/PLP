@@ -41,6 +41,7 @@ write_the_rules(description, filename=dir_path+'/'+'lp_data/generated_data_FD/de
 #these are mostly sanity check, given that PLP mappings generate this too. 
 # Mostly to ensure no information loss in generalization
 
+print(len(grammar.rules)) #to double check that the rules used to compute SRs below are the generalized ones
 print(grammar.getSR('Vbab', grammar.rules)) # should return vbab without FD; vbap with FD
 print(grammar.getSR('Vpab', grammar.rules)) # should return fpab without FD; fpap with FD
 print(grammar.getSR('pVab', grammar.rules)) # should return pvab without FD; pfap with FD

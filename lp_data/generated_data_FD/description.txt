@@ -1,12 +1,12 @@
 Length of the rule list: 6 rules
 {'CHANGE': '{+voi}',
  'LEFT': '[]',
- 'RIGHT': '[-segment]',
+ 'RIGHT': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;-voi]',
  'TARGET': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;+voi]',
  'TYPE': 'subtraction'}
 {'CHANGE': '{+voi}',
  'LEFT': '[]',
- 'RIGHT': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;-voi]',
+ 'RIGHT': '[-segment]',
  'TARGET': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;+voi]',
  'TYPE': 'subtraction'}
 {'CHANGE': '{-voi}',
