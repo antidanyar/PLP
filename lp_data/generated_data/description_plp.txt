@@ -1,0 +1,4 @@
+1: V --> f /  __ {f,k,p,s,t,ɕ,ʂ}
+2: {-voi} --> [+voi] /  __ {+cons,+voi}
+3: {+cons,+voi} --> [-voi] /  __ {-voi}
+4: V --> [+voi] /  __ 

@@ -1,0 +1,21 @@
+Length of the rule list: 4 rules
+{'CHANGE': '{+voi}',
+ 'LEFT': '[]',
+ 'RIGHT': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;-voi]',
+ 'TARGET': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;+voi]',
+ 'TYPE': 'subtraction'}
+{'CHANGE': '{-voi}',
+ 'LEFT': '[]',
+ 'RIGHT': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;+voi]',
+ 'TARGET': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;-voi]',
+ 'TYPE': 'subtraction'}
+{'CHANGE': '{-voi}',
+ 'LEFT': '[]',
+ 'RIGHT': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric;-voi]',
+ 'TARGET': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric]',
+ 'TYPE': 'unification'}
+{'CHANGE': '{+voi}',
+ 'LEFT': '[]',
+ 'RIGHT': '[]',
+ 'TARGET': '[+segment;-cg;+cons;-lat;-lo;-long;-nas;-round;-sg;-son;-syl;-velaric]',
+ 'TYPE': 'unification'}
